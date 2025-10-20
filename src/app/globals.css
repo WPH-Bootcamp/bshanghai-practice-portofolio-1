@@ -260,3 +260,11 @@ body {
     @apply flex items-center justify-start;
   }
 }
+
+img {
+  /* user-drag: none; */
+  -webkit-user-drag: none; /* For Safari */
+  user-select: none; /* Prevent selection */
+  touch-action: none; /* Disable touch gestures */
+  -webkit-user-select: none; /* For Safari */
+}
